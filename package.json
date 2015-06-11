@@ -8,6 +8,16 @@
   },
   "author": "Nikolas LeBlanc <nikolas.leblanc@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nikolasleblanc/pdeffff"
+  },
+  "keywords": [
+    "express",
+    "pdf",
+    "html",
+    "stream"
+  ],
   "dependencies": {
     "node-uuid": "^1.4.3",
     "phantom": "^0.7.2",
