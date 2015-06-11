@@ -1,0 +1,16 @@
+{
+  "name": "pdeffff",
+  "version": "1.0.0",
+  "description": "Uses phantomjs to convert an html file or string into a pdf stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikolas LeBlanc <nikolas.leblanc@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-uuid": "^1.4.3",
+    "phantom": "^0.7.2",
+    "q": "^1.4.1"
+  }
+}
