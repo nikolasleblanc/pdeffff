@@ -38,8 +38,6 @@ var options = {
   }
 };
 
-options = undefined;
-
 pdeffff.fromURL("http://cnn.com", options)
   .then(function(stream){
     var filename = uuid.v1() + '.pdf';
