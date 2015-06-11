@@ -45,9 +45,11 @@ module.exports = {
   fromFile: function(file, options) {
     var deferred = Q.defer();
 
+    var self = this;
+
     var filename = 'tmp/' + uuid.v1() + '.pdf';
     fs.readFile(file, "utf-8", function(err, data) {
-      pdeffff.fromString(data, options)
+      self.fromString(data, options)
         .then(function(stream){
           deferred.resolve(stream);
         });
